@@ -12,8 +12,8 @@ For the detailed literature review, methodology justification, and analysis of r
 
 ## 📂 Project Structure
 
-* **`main2.py`**: Entry point. Handles the training loop, curriculum learning schedule for smoothing, and result visualization.
-* **`model2.py`**: Defines the Neural Networks (Value & Policy Nets) and the custom training step implementing Equation 15 from Maliar (2021).
+* **`main.py`**: Entry point. Handles the training loop, curriculum learning schedule for smoothing, and result visualization.
+* **`model.py`**: Defines the Neural Networks (Value & Policy Nets) and the custom training step implementing Equation 15 from Maliar (2021).
 * **`economics.py`**: Contains economic primitives (Cobb-Douglas production, adjustment costs, AR(1) shocks).
 * **`test_project.py`**: Comprehensive test suite (Unit, Integration, and Validation tests).
 * **`results_maliar_final_stable/`**: Directory where generated plots and data are saved.
