@@ -109,9 +109,10 @@ def main():
     plt.plot(euler_smooth, label='Real Euler (Smoothed)', alpha=0.8)
     plt.yscale('log')
 
-    plt.axvline(x=24000, color='r', linestyle='--', alpha=0.3, label='LR Drop (1e-5)')
+    # plt.axvline(x=24000, color='r', linestyle='--', alpha=0.3, label='LR Drop (1e-5)')
 
-    plt.title(f"Convergence (Stable)\nFinal Bellman: {loss_history['bellman_real'][-1]:.4f}")
+    # plt.title(f"Convergence (Stable)\nFinal Bellman: {loss_history['bellman_real'][-1]:.4f}")
+    plt.title("Convergence")
     plt.xlabel("Epoch")
     plt.ylabel("Mean Squared Error (Real Units)")
     plt.legend()
